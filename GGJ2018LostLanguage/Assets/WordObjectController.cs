@@ -10,7 +10,7 @@ public class WordObjectController : MonoBehaviour {
 
     public OnWordObjectMouseDownEvent on_mouse_down;
 
-    void Start()
+    void Awake()
     {
         on_mouse_down = new OnWordObjectMouseDownEvent();
     }
