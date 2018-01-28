@@ -1,38 +1,71 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
-public class LanguageLibrary
+public class LanguageLibrary : MonoBehaviour
 {
     public enum WordID
     {
+        BUS = 0,
+        FISH,
+        COMING,
+        TICKET,
+        APPLE,
+        PEAR,
+        MARKET,
+        GOING,
+        POLE,
+        PERSON,
+        BOOK,
+        CONTAINER,
+        HOUSE,
+        BUYING,
+        MATCHES,
+        GEM,
+        MONEY,
+        HILL,
+        REWARD,
+        ROSE,
         NUMBER_OF_WORDS
     }
 
 
     public struct Word
     {
-        UnityEngine.UI.Image unknown_symbol;
-        UnityEngine.UI.Image known_symbol;
+        Sprite symbol;
+        Sprite icon;
 
         string meaning;
 
-        //AudioClip sound { get; set; }
+        Word(Sprite _symbol, Sprite _icon, string _meaning)
+        {
+            symbol = _symbol;
+            icon = _icon;
+            meaning = _meaning;
+        }
     }
 
-    Dictionary<WordID, Word> word_dictionary;
+    [SerializeField]
+    Sprite[] symbols;
 
-    public LanguageLibrary()
+    [SerializeField]
+    Sprite[] icons;
+
+    [SerializeField]
+    string[] meanings;
+
+    Sprite GetSymbol(WordID word_id)
     {
-        word_dictionary = new Dictionary<WordID, Word>();
+        return symbols[(int)word_id];
     }
 
-    public Word GetWord(WordID word_id)
+    Sprite GetIcon(WordID word_id)
     {
-        return word_dictionary[word_id];
+        return icons[(int)word_id];
     }
 
-    public void SetWord(WordID word_id, Word word)
+    string GetMeaning(WordID word_id)
     {
-        word_dictionary[word_id] = word;
+        return meanings[(int)word_id];
     }
 
 }
