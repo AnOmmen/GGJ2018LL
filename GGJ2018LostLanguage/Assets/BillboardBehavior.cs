@@ -10,9 +10,9 @@ public class BillboardBehavior : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        player_camera_transform = GameObject.Find("Player").transform.Find("Camera");
+        player_camera_transform = GameObject.Find("Camera").transform;
         on_player_move = new UnityEngine.Events.UnityAction(OnPlayerMove);
-        player_camera_transform.GetComponentInParent<PlayerController>().on_player_move.AddListener(on_player_move);
+        GameObject.Find("Player").GetComponentInParent<PlayerController>().on_player_move.AddListener(on_player_move);
     }
 
     void OnPlayerMove()

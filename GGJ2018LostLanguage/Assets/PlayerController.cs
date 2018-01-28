@@ -12,14 +12,46 @@ public class PlayerController : MonoBehaviour {
 
     Vector3 translation;
 
+    public Transform cameraTrans;
+
     float degrees;
 
     public UnityEngine.Events.UnityEvent on_player_move;
 
     UnityEngine.Events.UnityAction<WordObjectController> on_word_object_mouse_down;
 
+    public bool interacting;
+
+
+	
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (Input.GetKeyDown(KeyCode.F) && !interacting)
+        {
+			print("Entering Conversation");
+            interacting = true;
+            this.GetComponent<Bounce>().currentMode = Bounce.MODE.OFF;
+        }
+        else if (Input.GetKeyDown(KeyCode.F) && interacting)
+        {
+            print("Leaving Conversation");
+            interacting = false;
+            GetComponent<Bounce>().currentMode = Bounce.MODE.FREEWALK;
+        }
+        other.transform.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
+    }
+
+    private void OnTriggerExit(Collider other)
+	{
+		other.transform.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
+	} 
+
     void Start()
     {
+        cameraTrans = GameObject.Find("Camera Focal").transform;
+
+        interacting = false;
 
         translation = Vector3.zero;
 
@@ -31,10 +63,11 @@ public class PlayerController : MonoBehaviour {
         }
 
     }
+
 	
 	void Update () {
 
-        if (Input.anyKey)
+        if (Input.anyKey && !interacting)
         {
             ProcessKeys();
         }
@@ -42,6 +75,7 @@ public class PlayerController : MonoBehaviour {
         if (!translation.Equals(Vector3.zero))
         {
             this.transform.Translate(translation.normalized * Time.deltaTime * move_speed, Space.World);
+            cameraTrans.transform.Translate(translation.normalized * Time.deltaTime * move_speed, Space.World);
             translation = Vector3.zero;
             OnPlayerMove();
         }
@@ -133,6 +167,7 @@ public class PlayerController : MonoBehaviour {
             degrees -= rotation_degrees;
         }
         this.transform.Rotate(this.transform.up, rotation_degrees);
+        cameraTrans.transform.Rotate(this.transform.up, rotation_degrees);
     }
 
     void PositiveRotation()
@@ -148,6 +183,7 @@ public class PlayerController : MonoBehaviour {
             degrees -= rotation_degrees;
         }
         this.transform.Rotate(this.transform.up, rotation_degrees);
+        cameraTrans.transform.Rotate(this.transform.up, rotation_degrees);
     }
 
     void OnPlayerMove()
