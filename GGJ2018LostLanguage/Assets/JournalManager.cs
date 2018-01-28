@@ -4,9 +4,12 @@ public class JournalManager {
 
     JournalLog journal_log;
 
+    public UnityEngine.Events.UnityEvent on_association_created;
+
     public JournalManager(List<Association> beginning_associations)
     {
         journal_log = new JournalLog();
+        on_association_created = new UnityEngine.Events.UnityEvent();
 
         foreach (Association association in beginning_associations)
         {
@@ -17,6 +20,7 @@ public class JournalManager {
     public void CreateAssociation(Association association, JournalLog.TabID tab_id = JournalLog.TabID.UNKNOWN)
     {
         journal_log.GetTab(tab_id).LogAssociation(association);
+        on_association_created.Invoke();
     }
 
     public List<Association> GetAssociations(JournalLog.TabID tab_id)

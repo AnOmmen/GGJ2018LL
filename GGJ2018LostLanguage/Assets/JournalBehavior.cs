@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JournalBehavior : MonoBehaviour {
 
-    JournalManager journal_manager;
+    public JournalManager journal_manager;
 
     UnityEngine.Events.UnityAction on_show_hide_journal_click;
     UnityEngine.Events.UnityAction on_open_journal_cover_click;
@@ -31,6 +31,8 @@ public class JournalBehavior : MonoBehaviour {
 
     LanguageLibrary language_library;
 
+    UnityEngine.Events.UnityAction on_association_created;
+
     enum JournalToggleState
     {
         OPEN = 0,
@@ -54,11 +56,17 @@ public class JournalBehavior : MonoBehaviour {
     [SerializeField]
     JournalPageState journal_page_state;
 
+    void Awake()
+    {
+        journal_manager = new JournalManager(new List<Association>());
+    }
+
     void Start()
     {
         travel_distance = 0f;
 
-        journal_manager = new JournalManager(new List<Association>());
+        on_association_created = new UnityEngine.Events.UnityAction(SetPageParts);
+        journal_manager.on_association_created.AddListener(on_association_created);
         language_library = GameObject.Find("LanguageLibrary").GetComponent<LanguageLibrary>();
 
         open_anchor = this.transform.parent.Find("JournalOpenAnchor");

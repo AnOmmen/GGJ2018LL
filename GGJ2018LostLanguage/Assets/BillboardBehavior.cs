@@ -10,7 +10,7 @@ public class BillboardBehavior : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        player_camera_transform = GameObject.Find("Camera").transform;
+        player_camera_transform = GameObject.Find("Camera Focal").transform.Find("Camera");
         on_player_move = new UnityEngine.Events.UnityAction(OnPlayerMove);
         GameObject.Find("Player").GetComponentInParent<PlayerController>().on_player_move.AddListener(on_player_move);
     }
@@ -18,6 +18,7 @@ public class BillboardBehavior : MonoBehaviour {
     void OnPlayerMove()
     {
         this.transform.LookAt(player_camera_transform);
+        transform.eulerAngles = new Vector3(0f, transform.rotation.eulerAngles.y, 0f);
     }
 
 }

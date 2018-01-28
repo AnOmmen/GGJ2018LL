@@ -23,7 +23,9 @@ public class PlayerController : MonoBehaviour {
     public bool interacting;
 
 
-	
+    bool object_selected;
+    WordObjectController word_object;
+    JournalManager journal;
 
     private void OnTriggerStay(Collider other)
     {
@@ -39,12 +41,10 @@ public class PlayerController : MonoBehaviour {
             interacting = false;
             GetComponent<Bounce>().currentMode = Bounce.MODE.FREEWALK;
         }
-        other.transform.gameObject.GetComponent<SpriteRenderer>().color = Color.blue;
     }
 
     private void OnTriggerExit(Collider other)
 	{
-		other.transform.gameObject.GetComponent<SpriteRenderer>().color = Color.red;
 	} 
 
     void Start()
@@ -61,7 +61,9 @@ public class PlayerController : MonoBehaviour {
         {
             word_object.GetComponent<WordObjectController>().on_mouse_down.AddListener(on_word_object_mouse_down);
         }
+        object_selected = false;
 
+        journal = GameObject.Find("Journal").GetComponent<JournalBehavior>().journal_manager;
     }
 
 	
@@ -193,7 +195,25 @@ public class PlayerController : MonoBehaviour {
 
     void OnWordObjectMouseDown(WordObjectController word_object_controller)
     {
-        
+        if (!object_selected)
+        {
+            object_selected = true;
+            word_object = word_object_controller;
+        }
+        else
+        {
+            if (word_object_controller.type_id != word_object.type_id)
+            {
+                journal.CreateAssociation(new Association(
+                        word_object_controller.type_id == WordObjectController.WordObjectID.ICON ? word_object_controller.word_id : word_object.word_id,
+                        word_object_controller.type_id == WordObjectController.WordObjectID.SYMBOL ? word_object_controller.word_id : word_object.word_id
+                ));
+            }
+
+            word_object_controller.ToggleHighlight();
+            word_object.ToggleHighlight();
+            object_selected = false;
+        }
     }
 
 }
