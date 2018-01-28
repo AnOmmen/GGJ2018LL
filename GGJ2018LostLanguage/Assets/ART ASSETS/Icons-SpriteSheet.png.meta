@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: a55cbadd98928584c92c9eededa835ae
+timeCreated: 1517167246
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Icons-SpriteSheet_0
+    21300002: Icons-SpriteSheet_1
+    21300004: Icons-SpriteSheet_2
+    21300006: Icons-SpriteSheet_3
+    21300008: Icons-SpriteSheet_4
+    21300010: Icons-SpriteSheet_5
+    21300012: Icons-SpriteSheet_6
+    21300014: Icons-SpriteSheet_7
+    21300016: Icons-SpriteSheet_8
+    21300018: Icons-SpriteSheet_9
+    21300020: Icons-SpriteSheet_10
+    21300022: Icons-SpriteSheet_11
+    21300024: Icons-SpriteSheet_12
+    21300026: Icons-SpriteSheet_13
+    21300028: Icons-SpriteSheet_14
+    21300030: Icons-SpriteSheet_15
+    21300032: Icons-SpriteSheet_16
+    21300034: Icons-SpriteSheet_17
+    21300036: Icons-SpriteSheet_18
+    21300038: Icons-SpriteSheet_19
+    21300040: Icons-SpriteSheet_20
+    21300042: Icons-SpriteSheet_21
+    21300044: Icons-SpriteSheet_22
+    21300046: Icons-SpriteSheet_23
+    21300048: Icons-SpriteSheet_24
+    21300050: Icons-SpriteSheet_25
+    21300052: Icons-SpriteSheet_26
+    21300054: Icons-SpriteSheet_27
+    21300056: Icons-SpriteSheet_28
+    21300058: Icons-SpriteSheet_29
+    21300060: Icons-SpriteSheet_30
+    21300062: Icons-SpriteSheet_31
+    21300064: Icons-SpriteSheet_32
+    21300066: Icons-SpriteSheet_33
+    21300068: Icons-SpriteSheet_34
+    21300070: Icons-SpriteSheet_35
+    21300072: Icons-SpriteSheet_36
+    21300074: Icons-SpriteSheet_37
+    21300076: Icons-SpriteSheet_38
+    21300078: Icons-SpriteSheet_39
+    21300080: Icons-SpriteSheet_40
+    21300082: Icons-SpriteSheet_41
+    21300084: Icons-SpriteSheet_42
+    21300086: Icons-SpriteSheet_43
+    21300088: Icons-SpriteSheet_44
+    21300090: Icons-SpriteSheet_45
+    21300092: Icons-SpriteSheet_46
+    21300094: Icons-SpriteSheet_47
+    21300096: Icons-SpriteSheet_48
+    21300098: Icons-SpriteSheet_49
+    21300100: Icons-SpriteSheet_50
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 618
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 614
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 614
+        width: 72
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 605
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 601
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 598
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 521
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 516
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 521
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 526
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 526
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 524
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 436
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 438
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 430
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 439
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 434
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 438
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 350
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 346
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 350
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 348
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 342
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 346
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 264
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 274
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 256
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 291
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 260
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 264
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 193
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 193
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 184
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 184
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 179
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 189
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 177
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 95
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 94
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 87
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 87
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 87
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 84
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Icons-SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

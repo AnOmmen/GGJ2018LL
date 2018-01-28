@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: e4861d2877401a741a3ebaf79fa93390
+timeCreated: 1517167404
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Text_SymbolsGridded_0
+    21300002: Text_SymbolsGridded_1
+    21300004: Text_SymbolsGridded_2
+    21300006: Text_SymbolsGridded_3
+    21300008: Text_SymbolsGridded_4
+    21300010: Text_SymbolsGridded_5
+    21300012: Text_SymbolsGridded_6
+    21300014: Text_SymbolsGridded_7
+    21300016: Text_SymbolsGridded_8
+    21300018: Text_SymbolsGridded_9
+    21300020: Text_SymbolsGridded_10
+    21300022: Text_SymbolsGridded_11
+    21300024: Text_SymbolsGridded_12
+    21300026: Text_SymbolsGridded_13
+    21300028: Text_SymbolsGridded_14
+    21300030: Text_SymbolsGridded_15
+    21300032: Text_SymbolsGridded_16
+    21300034: Text_SymbolsGridded_17
+    21300036: Text_SymbolsGridded_18
+    21300038: Text_SymbolsGridded_19
+    21300040: Text_SymbolsGridded_20
+    21300042: Text_SymbolsGridded_21
+    21300044: Text_SymbolsGridded_22
+    21300046: Text_SymbolsGridded_23
+    21300048: Text_SymbolsGridded_24
+    21300050: Text_SymbolsGridded_25
+    21300052: Text_SymbolsGridded_26
+    21300054: Text_SymbolsGridded_27
+    21300056: Text_SymbolsGridded_28
+    21300058: Text_SymbolsGridded_29
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1188
+        width: 243
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1148
+        width: 235
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1230
+        width: 249
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_3
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1153
+        width: 156
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1161
+        width: 232
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 984
+        width: 235
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 862
+        width: 224
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1019
+        width: 193
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_8
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 922
+        width: 153
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_9
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 910
+        width: 226
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 882
+        width: 235
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_11
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 895
+        width: 167
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 871
+        width: 192
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 588
+        width: 219
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_14
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 585
+        width: 141
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_15
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 600
+        width: 246
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_16
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 590
+        width: 100
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_17
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 590
+        width: 100
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 359
+        width: 254
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_19
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 309
+        width: 190
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_20
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 337
+        width: 237
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_21
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 304
+        width: 242
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_22
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 17
+        width: 187
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 70
+        width: 98
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_24
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 41
+        width: 100
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_25
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 172
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_26
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 149
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_27
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 209
+        width: 187
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_28
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 67
+        width: 258
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Text_SymbolsGridded_29
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 23
+        width: 164
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
