@@ -4,6 +4,11 @@ public class TabLog {
 
     public readonly List<Association> associations;
 
+    public TabLog()
+    {
+        associations = new List<Association>();
+    }
+
     public void LogAssociation(Association association)
     {
         associations.Add(association);

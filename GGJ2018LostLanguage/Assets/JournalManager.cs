@@ -6,6 +6,8 @@ public class JournalManager {
 
     public JournalManager(List<Association> beginning_associations)
     {
+        journal_log = new JournalLog();
+
         foreach (Association association in beginning_associations)
         {
             CreateAssociation(association, JournalLog.TabID.CORRECT);

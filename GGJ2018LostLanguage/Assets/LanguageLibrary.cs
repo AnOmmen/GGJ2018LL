@@ -53,17 +53,17 @@ public class LanguageLibrary : MonoBehaviour
     [SerializeField]
     string[] meanings;
 
-    Sprite GetSymbol(WordID word_id)
+    public Sprite GetSymbol(WordID word_id)
     {
         return symbols[(int)word_id];
     }
 
-    Sprite GetIcon(WordID word_id)
+    public Sprite GetIcon(WordID word_id)
     {
         return icons[(int)word_id];
     }
 
-    string GetMeaning(WordID word_id)
+    public string GetMeaning(WordID word_id)
     {
         return meanings[(int)word_id];
     }
